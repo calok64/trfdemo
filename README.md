@@ -3,6 +3,7 @@
 This is a POC for deploying converting diagram to code and generating terraform deployment scripts using azure. The flask ui helps to interact with rasa chatbot with chatgpt as backend to generate scripts and edit them before deploying to azure cloud using terraform cli.
 
 **Main directory :** rasademo
+
 **Directory structure**
 ```bash
 ├── actions
