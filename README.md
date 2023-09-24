@@ -95,6 +95,8 @@ This is a POC for deploying converting diagram to code and generating terraform 
    d) Azure App Passwords
    e) Azure Username
    f) Terraform Token
+   g) OpenAI Org Name
+   h) OpenAI API Key
 2)  [Create a python virtual environment (venv)](https://docs.python.org/3/library/venv.html)
 3) Activate virtual environment - $ source venv/bin/activate
 4) Install packages - pip install -r requirements.txt
