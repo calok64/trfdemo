@@ -109,7 +109,8 @@ This is a POC for deploying converting diagram to code and generating terraform 
 1) Activate venv
 2) Start rasa server => rasa run -m models --enable-api
 3) Train rasa model => rasa train
-4) Start Flask server => flask --app chat run 
+4) Start Flask server => flask --app chat run
+5) If you change the name of file "chat.py" then in Step4 you need to replace "chat" with the same name.
 
 **Note :**
 1) The config files are uploaded as part of the source code. But the config files related to azure and terraform will be generated while setting up the project.
