@@ -1,4 +1,7 @@
 # trfdemo
+
+## Gen AI CDT Hackathon, Fractal
+
 **About Project**
 This is a POC for deploying converting diagram to code and generating terraform deployment scripts using azure. The flask ui helps to interact with rasa chatbot with chatgpt as backend to generate scripts and edit them before deploying to azure cloud using terraform cli.
 
@@ -85,13 +88,20 @@ This is a POC for deploying converting diagram to code and generating terraform 
 7) For diagrams [draw.io](https://draw.io/)
    
 **Setting up the project :**
-1) [Create a python virtual environment (venv)](https://docs.python.org/3/library/venv.html)
-2) Activate virtual environment - $ source venv/bin/activate
-3) Install packages - pip install -r requirements.txt
+1) You will need the following parameters while setting up the project
+   a) Azure Tenant ID
+   b) Azure Subscription ID
+   c) Azure App ID
+   d) Azure App Passwords
+   e) Azure Username
+   f) Terraform Token
+2)  [Create a python virtual environment (venv)](https://docs.python.org/3/library/venv.html)
+3) Activate virtual environment - $ source venv/bin/activate
+4) Install packages - pip install -r requirements.txt
    ( You can refer below links for installing rasa and flask if you want to understand more )
-4) [Install Rasa on Ubuntu](https://learning.rasa.com/installation/ubuntu/)
-5) [Install Flask on Ubuntu](https://linuxize.com/post/how-to-install-flask-on-ubuntu-20-04/)
-6) [Setting up Terraform on Linux VM (Ubuntu) for Azure](https://developer.hashicorp.com/terraform/tutorials/azure-get-started)
+5) [Install Rasa on Ubuntu](https://learning.rasa.com/installation/ubuntu/)
+6) [Install Flask on Ubuntu](https://linuxize.com/post/how-to-install-flask-on-ubuntu-20-04/)
+7) [Setting up Terraform on Linux VM (Ubuntu) for Azure](https://developer.hashicorp.com/terraform/tutorials/azure-get-started)
    
 **Runnning the project :**
 1) Activate venv
@@ -99,3 +109,5 @@ This is a POC for deploying converting diagram to code and generating terraform 
 3) Train rasa model => rasa train
 4) Start Flask server => flask --app chat run 
 
+**Note :**
+The config files are uploaded as part of the source code. But the config files related to azure and terraform will be generated while setting up the project.
